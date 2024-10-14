@@ -14,9 +14,9 @@
         <label for="lastname">Last name:</label><br>
         <input type="text" id="lastname" name="lastname"><br>
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
+        <input type="email" id="email" name="email" size="40" required><br>
         <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
+        <input type="password" id="password" name="password" placeholder="password"><br><br>
         <label>Gender:</label><br>
         <input type="radio" id="male" name="Gender" value="male"> 
         <label>Male</label>
@@ -35,8 +35,8 @@
             <option value="Cat">Cat</option>
             <option value="Parrot">Parrot</option>
         </select><br><br>
-        <label>Leave a message:</label>
-        <textarea name="message" rows="10" cols="20"></textarea><br>
+        <label>Leave a message:</label><br>
+        <textarea name="message" rows="10" cols="20" maxlength="50"></textarea><br>
         <input type="submit" id="submit" name="submit"><br>
     </fieldset>
     </form>
